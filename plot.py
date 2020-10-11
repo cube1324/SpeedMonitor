@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pandas import DataFrame, read_csv
 
-
+#Expects 1 data entry per hour, will fuck up with a diffrent period
 df = read_csv("data.csv")
 
 print(df.to_numpy()[:,2])
