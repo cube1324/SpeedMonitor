@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import speedtest
 from pandas import DataFrame, read_csv
 from datetime import datetime
